@@ -4,10 +4,10 @@
     "asset": "noon_grass",
     "file": "environment-summer.hdr",
     "source": "https://polyhaven.com/a/noon_grass",
-    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/1k/noon_grass_1k.hdr",
+    "url": "https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/noon_grass_2k.hdr",
     "license": "CC0-1.0",
-    "md5": "64f0c7e8990ff10d484531b1c938c62f",
-    "bytes": 1557132
+    "md5": "1e0908b14d868fccc9b024f87587cee4",
+    "bytes": 6367923
   },
   {
     "environment": "autumn",
@@ -82,5 +82,49 @@
     "md5": "c914c8edb419f040e04224081a3f79a5",
     "tile_width_m": 1.5,
     "bytes": 485088
+  },
+  {
+    "environment": "summer",
+    "asset": "leafy_grass",
+    "file": "ground-summer-normal.jpg",
+    "source": "https://polyhaven.com/a/leafy_grass",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/leafy_grass/leafy_grass_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "md5": "8279e096e204ea326d57a318869f99df",
+    "bytes": 1466049,
+    "purpose": "PBR ground normal map"
+  },
+  {
+    "environment": "autumn",
+    "asset": "brown_mud_leaves_01",
+    "file": "ground-autumn-normal.jpg",
+    "source": "https://polyhaven.com/a/brown_mud_leaves_01",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/brown_mud_leaves_01/brown_mud_leaves_01_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "md5": "3698df51ef8262ddf2248ffca1e73196",
+    "bytes": 1486072,
+    "purpose": "PBR ground normal map"
+  },
+  {
+    "environment": "winter",
+    "asset": "snow_02",
+    "file": "ground-winter-normal.jpg",
+    "source": "https://polyhaven.com/a/snow_02",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/snow_02/snow_02_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "md5": "f16b5701f9ad521cdd6af10c1d6d2b48",
+    "bytes": 1081858,
+    "purpose": "PBR ground normal map"
+  },
+  {
+    "environment": "desert",
+    "asset": "sand_01",
+    "file": "ground-desert-normal.jpg",
+    "source": "https://polyhaven.com/a/sand_01",
+    "url": "https://dl.polyhaven.org/file/ph-assets/Textures/jpg/1k/sand_01/sand_01_nor_gl_1k.jpg",
+    "license": "CC0-1.0",
+    "md5": "369b82aa417c77ec85c4c07c4c7b60a0",
+    "bytes": 877821,
+    "purpose": "PBR ground normal map"
   }
 ]

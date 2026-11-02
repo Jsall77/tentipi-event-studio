@@ -87,4 +87,14 @@ QA: 53 automated tests, including all 512 roof patterns, 14 layout regressions a
 
 The tent canvas laps over the linking fabric. Connector surfaces now follow below the lowest covering tent roof; their perimeter is clipped to the original canvas coverage so no connector flap lies on top or protrudes beyond it. The same rule applies at three-tent junctions. Render clearance is not a specified installation overlap. Four regression tests cast rays against the actual triangulated tent roof meshes in pair, triangle and six-tent layouts (including rotation) to verify the connector remains covered from above. This is a geometry correction, not a physical waterproofing certification.
 
+## Photographic rendering · 2 November 2026
+
+The enabled-by-default Fotoläge uses an eye-level exterior composition, AgX colour handling, GTAO contact occlusion, FXAA and subtle lens contrast. Evening lighting includes restrained highlight bloom. The normal plan renderer stays available; switching Fotoläge off keeps all product selections and geometry.
+
+Canvas has woven PBR surfaces, micro-normal detail and bounded centimetre-scale fabric slack; shared hems/seams stay exact. Timber has directional grain, furniture boards have softened edges, clear WallFlex panels reflect their environment, and terrain has CC0 normal maps. Summer uses a higher-resolution 2k Poly Haven panorama. Rendering resolution is capped to keep large displays practical; frames render on changes, camera movement and animation rather than continuously when idle. Transparent panes and invisible interaction meshes are omitted from the AO depth pass so they do not create phantom walls.
+
+This improves photographic appearance but remains an illustrative browser-rendered model, not a calibrated scan or a claim of indistinguishability from a product photograph. All catalogue dimensions, configurations, furniture placement, LinkFlex underlays and quotation rules are retained.
+
+Validation: 54 passing tests; canopy/connector ray tests include the new visual cloth relief. Browser checks covered exterior/interior, day/evening, six linked tents, plan view, WallFlex controls and 390-pixel mobile layout. Source normal maps are listed in environment-sources.json.
+
 Download developer source: [Tentipi-Event-Studio-kallkod.zip](Tentipi-Event-Studio-kallkod.zip)
