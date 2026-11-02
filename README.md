@@ -67,6 +67,6 @@ Latest details: direct canvas clicks raise/lower sides; the ventilation hood ope
 
 Closed canvas entrance: continuous fabric meets at a raised zipper tape with visible interlocking teeth and pull. The open slit/triangular edge seams are shown only while the entrance is open. Zipper hardware remains illustrative.
 
-Vent hood refinement: the complete soft, folded hood is hoisted vertically, preserving its draped shape and opening a ventilation gap. It no longer flattens into a rigid disk. Hoist distance is illustrative.
+Vent hood mechanism: the upper attachment stays fixed at 6.8m. Pull cords raise the lower hem while the cloth gathers into radial and concentric folds; closing releases it back down over the roof neck. Animation deforms the surface and rim rather than translating the hood. Reduced-motion settings skip the animation. Cord routing and detailed fabric folds remain illustrative.
 
 Download developer source: [Tentipi-Event-Studio-kallkod.zip](Tentipi-Event-Studio-kallkod.zip)
