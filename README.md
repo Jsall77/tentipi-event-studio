@@ -43,7 +43,7 @@ På byggdatorn användes redan installerade exakta Three.js 0.186.1 / esbuild 0.
 
 ## Granskning och begränsningar
 
-Tre agenter genomförde produktresearch, katalogresearch och referensstudier. Modellen och Shopify-överföringen har tolv automatiserade testfall för validering, felaktiga importer, tillbehörsberoenden, WallFlex-övergångar, kollisioner och delningsrundtur. Granskningsanmärkningar och rättningar finns under qa/.
+Tre agenter genomförde produktresearch, katalogresearch och referensstudier. Modellen och Shopify-överföringen har 29 automatiserade testfall för validering, felaktiga importer, tillbehörsberoenden, WallFlex-övergångar, kollisioner och delningsrundtur. Granskningsanmärkningar och rättningar finns under qa/.
 
 Webbläsartest omfattar modellstart, färg, WallFlex 360°, mittparti, möblering, exakta koordinater, rotation, vybyte, sparning över omladdning, delad konfiguration med fortsatta ändringar och 390 px mobil utan horisontell överflytning. Exakt fysisk produktmatchning, touch på en fysisk mobil, PDF-filens alla läsarprogram och skarp Shopifykontakt/checkout återstår. Någon tillverkarverifierad konstruktions- eller produktionsmodell levereras inte.
 
@@ -55,12 +55,14 @@ Three.js används under MIT; THREE-LICENSE.txt följer med. Google Fonts laddas 
 
 ## Geometry and environment update — 2 November 2026
 
-Continuous canopy boundaries verified across all 512 raised/lowered combinations, shared WallFlex eaves, closed glazing and boundary lifting consoles. Official close-ups distinguish the main poles, long thin secondary poles between them, and lifting consoles attached above ground. Thin lifting supports are shown only with raised sides, following the owner’s assembly clarification. Extra secondary pole positions are not invented in the customer model; current assembly documentation is still required for production validation.
+Continuous canopy boundaries verified across all 512 raised/lowered combinations, shared WallFlex eaves and closed glazing. The owner clarified that loose lifting poles stand vertically on the ground, at 90 degrees, and are installed only beside raised sides. They are visibly distinct from the thin sloping guy ropes. This supersedes the earlier interpretation of above-ground diagonal lifting supports. Extra secondary pole positions are not invented in the customer model; current assembly documentation is still required for production validation.
 
 Studio plus summer, autumn, winter and desert are selectable. Outdoor panoramas are locally hosted 1k HDR photographs from Poly Haven under CC0; metadata and checksums are in `dist/assets/environment-sources.json`. Lazy loading, caching and a procedural fallback preserve use if an image fails. Environment selection is stored in the project and share URL; it is not a billable product. Project geometry is not a surveyed scene or a site approval.
 
 Additional fixes: safe transactional edits, blank-coordinate validation, duplication near the supported coordinate boundaries, SVG keyboard focus, reduced-motion camera transitions, floor polygon alignment and portrait plan camera fitting.
 
-Final presentation uses a conventional panorama sphere and separately tiled ground textures to avoid radial stretching in elevated orbit views. Additional secondary-pole assembly positions and the precise fabric pattern remain unverified. 26 automated tests pass; browser QA includes mixed canopy states and 390px mobile plan layout.
+Final presentation uses a conventional panorama sphere and separately tiled ground textures to avoid radial stretching in elevated orbit views. Additional secondary-pole assembly positions and the precise fabric pattern remain unverified. 29 automated tests pass; browser QA includes mixed canopy states and 390px mobile plan layout.
+
+Latest details: direct canvas clicks raise/lower sides; the ventilation hood opens above a real roof-neck aperture and closes with overlap. A separate canvas zipper entrance on side 04 opens/closes when that canvas side is lowered. Its exact dimensions and placement are illustrative, not a new saleable SKU. A muted olive-green reinforcement strip follows the fabric hem, including mixed raised/lowered sides and moving entrance flaps. All three choices persist in project/share state (the reinforcement strip is a visual construction detail, not an option).
 
 Download developer source: [Tentipi-Event-Studio-kallkod.zip](Tentipi-Event-Studio-kallkod.zip)
