@@ -1,0 +1,132 @@
+{
+  "retrieved": "2026-11-02",
+  "rights": "Official publicly served Tentipi assets. No open reuse licence was found; Tentipi and credited photographers retain rights. Confirm reuse rights before commercial launch.",
+  "images": [
+    {
+      "file": "reference-stratus72-exterior.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/2637_ST72Hero_Runnerup-GreatOceanTipisby_tony_evans_photo.webp?v=1725620142&width=1800",
+      "page": "https://tentipi.com/products/stratus-72",
+      "credit": "Great Ocean Tipis / Tony Evans, from official filename",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 675296,
+      "sha256": "a4c00de822e040db288be5fea4aaa23cfd4d4af8b33a535c242653ed61bbd59b"
+    },
+    {
+      "file": "reference-stratus72-interior.webp",
+      "url": "https://tentipi.com/cdn/shop/files/2648_ST72Insp_image00002.webp?v=1726468650&width=1800",
+      "page": "https://tentipi.com/products/stratus-72",
+      "credit": "Tentipi official inspiration image; photographer not identified",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 480628,
+      "sha256": "1e6ae87076e062d1c29c045f013f5ab9ef92fbdc75ce1d7803dce88f06c9cf02"
+    },
+    {
+      "file": "reference-stratus72-night.webp",
+      "url": "https://tentipi.com/cdn/shop/files/2641_ST72Insp_Under_the_Sky_6.webp?v=1726468650&width=1800",
+      "page": "https://tentipi.com/products/stratus-72",
+      "credit": "Under the Sky Events, official inspiration image",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 208931,
+      "sha256": "fe690a9f0153a087e166f2b0831f9bbc09f4a54ffb433087259f5ba4fb1cf643"
+    },
+    {
+      "file": "reference-wallflex.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/2657_ST72WallF_CASESTUDY-HARTREEimage11.webp?v=1727264777&width=1800",
+      "page": "https://tentipi.com/products/wallflex",
+      "credit": "Hartree official case-study photograph",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 451004,
+      "sha256": "6c12f81d10a05304048a667850147f3a397e8faed566566c5d0a67037206ff5c"
+    },
+    {
+      "file": "reference-table200.png",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/200cm_Furniture_Table.png?v=1762264923&width=720",
+      "page": "https://tentipi.com/products/collapsible-table-200-oil-treated",
+      "credit": "Tentipi official product asset",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 81795,
+      "sha256": "74ab9eb737e7111c52d384dce291df5edf486fe2cdf0f8da27fbfb1f52014277"
+    },
+    {
+      "file": "reference-bench200.png",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/200cm_Furniture_Bench.png?v=1762264922&width=720",
+      "page": "https://tentipi.com/products/collapsible-bench-200-oil-treated",
+      "credit": "Tentipi official product asset",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 60633,
+      "sha256": "e63c1b71b5bca5e7dd93dd29133edd49a895450fc6d2d1be1547eff4cdb343d5"
+    },
+    {
+      "file": "reference-table150.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/150cm_Furniture_Table.webp?v=1761043818&width=720",
+      "page": "https://tentipi.com/products/collapsible-table-150-oil-treated",
+      "credit": "Tentipi official product asset",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 105995,
+      "sha256": "a2b180374c3688fc110e7d0478f24622d30b496ec31d4da4d0ea53f216b6dcc8"
+    },
+    {
+      "file": "reference-bench150.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/150cm_Furniture_Bench.webp?v=1761046703&width=720",
+      "page": "https://tentipi.com/products/collapsible-bench-150-oil-treated",
+      "credit": "Tentipi official product asset",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 77438,
+      "sha256": "d0913efd94f52270e571496e857e754eaa35c09af3d7b675c81579fe5e43fe3c"
+    },
+    {
+      "file": "reference-bamse-max.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/1194_BamseMax.webp?v=1728642273&width=720",
+      "page": "https://tentipi.com/products/bamse-max",
+      "credit": "Tentipi official product asset",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 185978,
+      "sha256": "bc5d68d20e564274c61bf7d8deeb0da36ec9bce96f7d86d0a9717a6e8b41fcf5"
+    },
+    {
+      "file": "reference-lights.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/3321_42002_42003-TT-String-light-system_hanging_kit.webp?v=1729691951&width=720",
+      "page": "https://tentipi.com/products/tt-string-light-system-9x8-m",
+      "credit": "Tentipi official product asset",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 441841,
+      "sha256": "8c6fbe7ee08abc5dfb9119859353caa5a0029c145a62d0dd9e27e8c2302b8aa9"
+    },
+    {
+      "file": "reference-matting.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/2785_Matting2023.webp?v=1728651347&width=720",
+      "page": "https://tentipi.com/products/event-matting-sand",
+      "credit": "Tentipi official product asset",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 127303,
+      "sha256": "dd3c072b871337fa678db53b0527960ac424cef0544304d235c0d01dd1169a30"
+    },
+    {
+      "file": "reference-hide.webp",
+      "url": "https://cdn.shopify.com/s/files/1/0707/6587/1354/files/1161_Reindeer_hidedeluxe_prod.webp?v=1728549669&width=720",
+      "page": "https://tentipi.com/products/raindeer-hide-deluxe",
+      "credit": "Tentipi official product asset",
+      "modified": "Official CDN width parameter only; no local image changes",
+      "bytes": 431564,
+      "sha256": "f1bacb6f42df8588a2915a9c90dc0925517e372ec2e7f1fb460c2c2943af060b"
+    },
+    {
+      "file": "tentipi-original-logo.svg",
+      "url": "https://tentipi.com/products/collapsible-table-150-oil-treated",
+      "page": "https://tentipi.com/products/collapsible-table-150-oil-treated",
+      "credit": "Tentipi original inline SVG logo",
+      "modified": false,
+      "bytes": 8981,
+      "sha256": "0d774b39cc7444f3e588a96c7bdb606211a4eaf2f2218b44bd3d5ead829f4d8d"
+    },
+    {
+      "file": "reference-wallflex-diagram.webp",
+      "url": "https://tentipi.com/cdn/shop/files/WallFlexGraphic01.webp?v=1756973244&width=960",
+      "page": "https://tentipi.com/products/wallflex",
+      "credit": "Tentipi official diagram",
+      "modified": "Official CDN width parameter only",
+      "bytes": 30757,
+      "sha256": "301df742438d6b4d35b4f6197e62dbeb0707b61cba0f0b06e867f8b71972e814"
+    }
+  ]
+}
