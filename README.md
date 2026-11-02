@@ -55,12 +55,12 @@ Three.js används under MIT; THREE-LICENSE.txt följer med. Google Fonts laddas 
 
 ## Geometry and environment update — 2 November 2026
 
-Continuous canopy boundaries verified across all 512 raised/lowered combinations, shared WallFlex eaves, closed glazing and boundary lifting consoles. Official close-ups distinguish the main poles, long thin secondary poles between them, and lifting consoles attached above ground. Rendering of secondary poles is illustrative under lowered canvas; current assembly documentation is still required for production validation.
+Continuous canopy boundaries verified across all 512 raised/lowered combinations, shared WallFlex eaves, closed glazing and boundary lifting consoles. Official close-ups distinguish the main poles, long thin secondary poles between them, and lifting consoles attached above ground. Thin lifting supports are shown only with raised sides, following the owner’s assembly clarification. Extra secondary pole positions are not invented in the customer model; current assembly documentation is still required for production validation.
 
 Studio plus summer, autumn, winter and desert are selectable. Outdoor panoramas are locally hosted 1k HDR photographs from Poly Haven under CC0; metadata and checksums are in `dist/assets/environment-sources.json`. Lazy loading, caching and a procedural fallback preserve use if an image fails. Environment selection is stored in the project and share URL; it is not a billable product. Project geometry is not a surveyed scene or a site approval.
 
 Additional fixes: safe transactional edits, blank-coordinate validation, duplication near the supported coordinate boundaries, SVG keyboard focus, reduced-motion camera transitions, floor polygon alignment and portrait plan camera fitting.
 
-Final presentation uses a conventional panorama sphere and separately tiled ground textures to avoid radial stretching in elevated orbit views. Secondary-pole coordinates and the precise fabric pattern remain visual interpretations. 26 automated tests pass; browser QA includes mixed canopy states and 390px mobile plan layout.
+Final presentation uses a conventional panorama sphere and separately tiled ground textures to avoid radial stretching in elevated orbit views. Additional secondary-pole assembly positions and the precise fabric pattern remain unverified. 26 automated tests pass; browser QA includes mixed canopy states and 390px mobile plan layout.
 
 Download developer source: [Tentipi-Event-Studio-kallkod.zip](Tentipi-Event-Studio-kallkod.zip)
