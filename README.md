@@ -43,7 +43,7 @@ På byggdatorn användes redan installerade exakta Three.js 0.186.1 / esbuild 0.
 
 ## Granskning och begränsningar
 
-Tre agenter genomförde produktresearch, katalogresearch och referensstudier. Modellen och Shopify-överföringen har 49 automatiserade testfall för validering, felaktiga importer, tillbehörsberoenden, WallFlex-övergångar, kollisioner och delningsrundtur. Granskningsanmärkningar och rättningar finns under qa/.
+Tre agenter genomförde produktresearch, katalogresearch och referensstudier. Modellen och Shopify-överföringen har 53 automatiserade testfall för validering, felaktiga importer, tillbehörsberoenden, WallFlex-övergångar, kollisioner och delningsrundtur. Granskningsanmärkningar och rättningar finns under qa/.
 
 Webbläsartest omfattar modellstart, färg, WallFlex 360°, mittparti, möblering, exakta koordinater, rotation, vybyte, sparning över omladdning, delad konfiguration med fortsatta ändringar och 390 px mobil utan horisontell överflytning. Exakt fysisk produktmatchning, touch på en fysisk mobil, PDF-filens alla läsarprogram och skarp Shopifykontakt/checkout återstår. Någon tillverkarverifierad konstruktions- eller produktionsmodell levereras inte.
 
@@ -61,7 +61,7 @@ Studio plus summer, autumn, winter and desert are selectable. Outdoor panoramas 
 
 Additional fixes: safe transactional edits, blank-coordinate validation, duplication near the supported coordinate boundaries, SVG keyboard focus, reduced-motion camera transitions, floor polygon alignment and portrait plan camera fitting.
 
-Final presentation uses a conventional panorama sphere and separately tiled ground textures to avoid radial stretching in elevated orbit views. Additional secondary-pole assembly positions and the precise fabric pattern remain unverified. 49 automated tests pass; browser QA includes mixed canopy states and 390px mobile plan layout.
+Final presentation uses a conventional panorama sphere and separately tiled ground textures to avoid radial stretching in elevated orbit views. Additional secondary-pole assembly positions and the precise fabric pattern remain unverified. 53 automated tests pass; browser QA includes mixed canopy states and 390px mobile plan layout.
 
 Latest details: direct canvas clicks raise/lower sides; the ventilation hood opens above a real roof-neck aperture and closes with overlap. A separate canvas zipper entrance on side 04 opens/closes when that canvas side is lowered. Its exact dimensions and placement are illustrative, not a new saleable SKU. A muted olive-green reinforcement strip follows the fabric hem, including mixed raised/lowered sides and moving entrance flaps. All three choices persist in project/share state (the reinforcement strip is a visual construction detail, not an option).
 
@@ -81,6 +81,10 @@ Closed WallFlex zipper tapes, teeth and pulls remain visible. The original canva
 
 Per-tent state, positions and link closures survive undo/redo, project download/import, sharing, request text and print/PDF. Importing a single-tent project replaces an existing layout. Large supported projects round-trip within validated import/share bounds; very long links may be unsuitable for some mail services, so the downloadable project is also available. This static GitHub application still does not place Shopify orders.
 
-QA: 49 automated tests, including all 512 roof patterns, 14 layout regressions and six curved-infill tests. Independent agents found and verified fixes for sharing limits, third triangle passage, true import replacement, cancelled/rejected drag rollback, moving connection previews and roof visibility in plan/cutaway. Root browser QA exercised actual right-click, size swap, left drag, rotation handle, connected group dragging, individual tent colours, single-tent import, six tents, Midfill controls and mobile layout. No console warnings/errors in these checks. Physical touch hardware and official assembly validation remain outstanding.
+QA: 53 automated tests, including all 512 roof patterns, 14 layout regressions and six curved-infill tests. Independent agents found and verified fixes for sharing limits, third triangle passage, true import replacement, cancelled/rejected drag rollback, moving connection previews and roof visibility in plan/cutaway. Root browser QA exercised actual right-click, size swap, left drag, rotation handle, connected group dragging, individual tent colours, single-tent import, six tents, Midfill controls and mobile layout. No console warnings/errors in these checks. Physical touch hardware and official assembly validation remain outstanding.
+
+## Corrected linking-fabric overlap
+
+The tent canvas laps over the linking fabric. Connector surfaces now follow below the lowest covering tent roof; their perimeter is clipped to the original canvas coverage so no connector flap lies on top or protrudes beyond it. The same rule applies at three-tent junctions. Render clearance is not a specified installation overlap. Four regression tests cast rays against the actual triangulated tent roof meshes in pair, triangle and six-tent layouts (including rotation) to verify the connector remains covered from above. This is a geometry correction, not a physical waterproofing certification.
 
 Download developer source: [Tentipi-Event-Studio-kallkod.zip](Tentipi-Event-Studio-kallkod.zip)
