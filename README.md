@@ -65,4 +65,8 @@ Final presentation uses a conventional panorama sphere and separately tiled grou
 
 Latest details: direct canvas clicks raise/lower sides; the ventilation hood opens above a real roof-neck aperture and closes with overlap. A separate canvas zipper entrance on side 04 opens/closes when that canvas side is lowered. Its exact dimensions and placement are illustrative, not a new saleable SKU. A muted olive-green reinforcement strip follows the fabric hem, including mixed raised/lowered sides and moving entrance flaps. All three choices persist in project/share state (the reinforcement strip is a visual construction detail, not an option).
 
+Closed canvas entrance: continuous fabric meets at a raised zipper tape with visible interlocking teeth and pull. The open slit/triangular edge seams are shown only while the entrance is open. Zipper hardware remains illustrative.
+
+Vent hood refinement: the complete soft, folded hood is hoisted vertically, preserving its draped shape and opening a ventilation gap. It no longer flattens into a rigid disk. Hoist distance is illustrative.
+
 Download developer source: [Tentipi-Event-Studio-kallkod.zip](Tentipi-Event-Studio-kallkod.zip)
